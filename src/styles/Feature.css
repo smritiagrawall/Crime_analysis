@@ -1,0 +1,87 @@
+.featuremain{
+    color: #f7f2f2;
+    
+}
+.graphdiv{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    /* margin-left: 5rem; */
+    /* border: 2px solid #f7f2f2; */
+    align-items: center;
+
+}
+body{
+    background-color: #1c1b1b;
+    overflow-x: hidden;
+}
+.image1{
+    height: 16rem;
+    width: 23rem;
+    margin-right: 6rem;
+}
+.image2{
+    height: 16rem;
+    width: 16rem;
+    margin-left: 3rem;
+    /* margin-left: 7rem;
+    margin-top: 4rem; */
+}
+.graphsubdiv{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid #f7f2f2; */
+    padding-right: 3rem;
+    width: 20rem;
+    margin-top: 3rem;
+
+
+}
+
+.graphsubdiv2{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid #f7f2f2; */
+    /* padding-right: 3rem; */
+    width: 20rem;
+    margin-top: 3rem;
+    /* margin-left: 2rem; */
+}
+.graphparadiv{
+    /* border: 2px solid #f7f2f2;  */
+    margin-left: 3rem;
+}
+.graphparadiv2{
+    /* border: 2px solid #f7f2f2;  */
+    margin-left: 2rem;
+}
+.buttondiv{
+    height: 15rem;
+    padding-top: 5rem;
+}
+.buttonanalysis1{
+    background-color: rgb(245, 234, 76);
+    border-radius: 1.5rem;
+  /* padding: 15px 32px; */
+  text-align: center;
+  border: none;
+  text-decoration: none;
+  color: black;
+justify-content: right;
+height: 3rem;
+width: 10rem;
+font-size:1.5rem;
+  }
+
+  @media only screen and (max-width: 420px) {
+
+    .graphdiv{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        /* margin-left: 5rem; */
+        /* border: 2px solid #f7f2f2; */
+        align-items: center;
+    
+    }
+  }

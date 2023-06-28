@@ -1,0 +1,64 @@
+.home{
+    overflow-x:hidden;
+    /* width: 100%;
+    */
+}
+.back {
+ 
+    /* width: 100%; */
+    height: 40rem;
+    /* object-fit: cover; */
+ 
+}
+.firsth2 {
+color: aliceblue;
+margin-top: 8rem;
+font-size: 4rem;
+margin-left: 5rem;
+}
+
+.secondh2{
+    color: rgb(223, 208, 10);  
+    font-size: 4rem; 
+    margin-left: 0rem;
+    
+}
+
+.back p{
+    color: aliceblue;
+    font-size: 1.5rem;
+    padding-left: 8rem;
+    padding-right: 5rem;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 420px) {
+    .back {
+ 
+        /* width: 100%; */
+        height: 50rem;
+        /* object-fit: cover; */
+     
+    }
+    .firsth2 {
+    color: aliceblue;
+    margin-top: 8rem;
+    font-size: 3rem;
+    margin-left: 3rem;
+    }
+    
+    .secondh2{
+        color: rgb(223, 208, 10);  
+        font-size: 3rem; 
+        margin-left: 0rem;
+        
+    }
+    
+    .back p{
+        color: aliceblue;
+        font-size: 1.5rem;
+        padding-left: 8rem;
+        padding-right: 5rem;
+        font-style: italic;
+    }
+}
